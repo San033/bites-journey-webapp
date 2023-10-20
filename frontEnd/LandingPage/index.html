@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <title>Landing Page Bites Journey</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <a href="#">
+        <img
+          src="image/logo cadetblue.png"
+          width="200px"
+          height="auto"
+          class="logo"
+          alt=""
+        />
+      </a>
+
+      <div>
+        <ul class="navbar">
+          <div class="search">
+            <input type="text" placeholder="Search" />
+            <a href="#">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="phonesearch">
+            <i class="fas fa-search" id="phone-search-icon"></i>
+          </div>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="articels.html">Articels</a></li>
+          <li><a href="createArticel.html">Create Articels</a></li>
+          <li>
+            <a href="#"
+              ><img
+                src="image/profile icon.png"
+                class="image-profile"
+                onclick="toggleMenu()"
+                alt=""
+              />
+              <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                  <div class="user-info">
+                    <img
+                      src="image/profile icon.png"
+                      width="60px"
+                      height="auto"
+                    />
+                    <h3>John Smith</h3>
+                  </div>
+                  <hr class="sub-menu-hr" />
+                  <a href="editProfile.html" class="sub-menu-link"
+                    ><p>Edit Profile</p>
+                    <span>></span></a
+                  >
+
+                  <a href="setting&privacy.html" class="sub-menu-link"
+                    ><p>Setting & Privacy</p>
+                    <span>></span></a
+                  >
+                  <a href="help&support.html" class="sub-menu-link">
+                    <p>Help & Support</p>
+                    <span>></span>
+                  </a>
+                  <a href="logOut.html" class="sub-menu-link"
+                    ><p>Log Out</p>
+                    <span>></span>
+                  </a>
+                </div>
+              </div></a
+            >
+          </li>
+        </ul>
+      </div>
+
+    </section>
+    
+
+    <section class="hero">
+      <h2>Artikel</h2>
+      <h4>Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel Content Artikel</h4>
+      <button>Read more</button>
+    </section>
+    <section class="product1">
+      <h1>What's New</h1>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="image/69a3f672341441.5be4069d03a40.jpg" alt="avatar" />
+          <div class="des">
+            <span>Artikel5</span>
+            <h5>Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content</h5>
+            <button>Read more</button>
+          </div>
+        </div>
+
+        <div class="pro">
+          <img src="image/20586d72341441.5be4069d036c9.jpg" alt="" />
+          <div class="des">
+            <span>Artikel4</span>
+            <h5>Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content</h5>
+            <button>Read more</button>
+          </div>
+        </div>
+
+        <div class="pro">
+          <img src="image/1090ac72341441.5be4069d04427.jpg" alt="" />
+          <div class="des">
+            <span>Artikel3</span>
+            <h5>Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content</h5>
+            <button>Read more</button>
+          </div>
+        </div>
+
+        <div class="pro">
+          <img src="image/b8ddf072341441.5be4069d01ff0.jpg" alt="" />
+          <div class="des">
+            <span>Artikel2</span>
+            <h5>Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content</h5>
+            <button>Read more</button>
+          </div>
+        </div>
+
+        <div class="pro">
+          <img src="image/b9a50472341441.5be4069d02e36.jpg" alt="" />
+          <div class="des">
+            <span>Artikel1</span>
+            <h5>Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content Artikel content</h5>
+            <button>Read more</button>
+          </div>
+        </div>
+      </div>
+    <form action="" id="search-form">
+      <input type="search" placeholder="Search Here.." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <script>
+      let subMenu = document.getElementById("subMenu");
+
+      function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+      }
+
+      src = "script.js";
+    </script>
+  </body>
+</html>
